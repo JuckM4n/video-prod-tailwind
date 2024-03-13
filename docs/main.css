@@ -1123,11 +1123,35 @@ video {
 }
 
 .bg-bg{
-  background-image: url(../../docs/img/bg.png);
+  background-image: url(./img/bg.png);
 }
 
 .bg-rec{
-  background-image: url(../../docs/img/rec.png);
+  background-image: url(./img/rec.png);
+}
+
+.bg-\[url\(\.\/img\/hero\.png\)\2c _url\(\.\/img\/bottom-pic\.png\)\]{
+  background-image: url(./img/hero.png), url(./img/bottom-pic.png);
+}
+
+.bg-\[url\(\.\/img\/socials\.png\)\]{
+  background-image: url(./img/socials.png);
+}
+
+.bg-\[url\(\.\/img\/avatars\.png\)\]{
+  background-image: url(./img/avatars.png);
+}
+
+.bg-\[url\(\.\/img\/party\.png\)\]{
+  background-image: url(./img/party.png);
+}
+
+.bg-\[url\(\.\/img\/top-line\.png\)\]{
+  background-image: url(./img/top-line.png);
+}
+
+.bg-\[url\(\.\/img\/partners\.png\)\]{
+  background-image: url(./img/partners.png);
 }
 
 .bg-\[position\:-10px_-10px\]{
@@ -1673,6 +1697,11 @@ video {
   background-image: url(../../docs/img/cameraman.png);
 }
 
+.before\:bg-\[url\(\.\/img\/cameraman\.png\)\]::before{
+  content: var(--tw-content);
+  background-image: url(./img/cameraman.png);
+}
+
 .before\:bg-no-repeat::before{
   content: var(--tw-content);
   background-repeat: no-repeat;
@@ -1758,6 +1787,11 @@ video {
 
 .after\:content-\[url\(\.\.\/\.\.\/docs\/img\/vk-blue\.png\)\]::after{
   --tw-content: url(../../docs/img/vk-blue.png);
+  content: var(--tw-content);
+}
+
+.after\:content-\[url\(\.\/img\/vk-blue\.png\)\]::after{
+  --tw-content: url(./img/vk-blue.png);
   content: var(--tw-content);
 }
 

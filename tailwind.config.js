@@ -8,9 +8,9 @@ module.exports = {
         'black': '#17191C',
       },
       backgroundImage: {
-        'bg': 'url(../../docs/img/bg.png)',
-        'rec': 'url(../../docs/img/rec.png)',
-        'top-line': 'url(../../docs/img/top-line.png)'
+        'bg': 'url(./img/bg.png)',
+        'rec': 'url(./img/rec.png)',
+        'top-line': 'url(./img/top-line.png)'
       },
       spacing: {
         '5px': '5px',
