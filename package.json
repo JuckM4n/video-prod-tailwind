@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "tailwindcss build -i ./src/css/main.css -o ./src/main.css --watch "
+    "watch": "tailwindcss build -i ./docs/css/main.css -o ./docs/main.css --watch "
   },
   "dependencies": {
     "autoprefixer": "^10.4.18",

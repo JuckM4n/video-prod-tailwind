@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["src/*.html"],
+  content: ["docs/*.html"],
   theme: {
     extend: {
       colors: {
@@ -8,9 +8,9 @@ module.exports = {
         'black': '#17191C',
       },
       backgroundImage: {
-        'bg': 'url(../../src/img/bg.png)',
-        'rec': 'url(../../src/img/rec.png)',
-        'top-line': 'url(../../src/img/top-line.png)'
+        'bg': 'url(../../docs/img/bg.png)',
+        'rec': 'url(../../docs/img/rec.png)',
+        'top-line': 'url(../../docs/img/top-line.png)'
       },
       spacing: {
         '5px': '5px',
