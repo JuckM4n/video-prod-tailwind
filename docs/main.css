@@ -1098,36 +1098,36 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\.\.\/\.\.\/src\/img\/avatars\.png\)\]{
-  background-image: url(../../src/img/avatars.png);
+.bg-\[url\(\.\.\/\.\.\/docs\/img\/avatars\.png\)\]{
+  background-image: url(../../docs/img/avatars.png);
 }
 
-.bg-\[url\(\.\.\/\.\.\/src\/img\/hero\.png\)\2c _url\(\.\.\/\.\.\/src\/img\/bottom-pic\.png\)\]{
-  background-image: url(../../src/img/hero.png), url(../../src/img/bottom-pic.png);
+.bg-\[url\(\.\.\/\.\.\/docs\/img\/hero\.png\)\2c _url\(\.\.\/\.\.\/docs\/img\/bottom-pic\.png\)\]{
+  background-image: url(../../docs/img/hero.png), url(../../docs/img/bottom-pic.png);
 }
 
-.bg-\[url\(\.\.\/\.\.\/src\/img\/partners\.png\)\]{
-  background-image: url(../../src/img/partners.png);
+.bg-\[url\(\.\.\/\.\.\/docs\/img\/partners\.png\)\]{
+  background-image: url(../../docs/img/partners.png);
 }
 
-.bg-\[url\(\.\.\/\.\.\/src\/img\/party\.png\)\]{
-  background-image: url(../../src/img/party.png);
+.bg-\[url\(\.\.\/\.\.\/docs\/img\/party\.png\)\]{
+  background-image: url(../../docs/img/party.png);
 }
 
-.bg-\[url\(\.\.\/\.\.\/src\/img\/socials\.png\)\]{
-  background-image: url(../../src/img/socials.png);
+.bg-\[url\(\.\.\/\.\.\/docs\/img\/socials\.png\)\]{
+  background-image: url(../../docs/img/socials.png);
 }
 
-.bg-\[url\(\.\.\/\.\.\/src\/img\/top-line\.png\)\]{
-  background-image: url(../../src/img/top-line.png);
+.bg-\[url\(\.\.\/\.\.\/docs\/img\/top-line\.png\)\]{
+  background-image: url(../../docs/img/top-line.png);
 }
 
 .bg-bg{
-  background-image: url(../../src/img/bg.png);
+  background-image: url(../../docs/img/bg.png);
 }
 
 .bg-rec{
-  background-image: url(../../src/img/rec.png);
+  background-image: url(../../docs/img/rec.png);
 }
 
 .bg-\[position\:-10px_-10px\]{
@@ -1668,9 +1668,9 @@ video {
   width: 100%;
 }
 
-.before\:bg-\[url\(\.\.\/\.\.\/src\/img\/cameraman\.png\)\]::before{
+.before\:bg-\[url\(\.\.\/\.\.\/docs\/img\/cameraman\.png\)\]::before{
   content: var(--tw-content);
-  background-image: url(../../src/img/cameraman.png);
+  background-image: url(../../docs/img/cameraman.png);
 }
 
 .before\:bg-no-repeat::before{
@@ -1756,8 +1756,8 @@ video {
   content: var(--tw-content);
 }
 
-.after\:content-\[url\(\.\.\/\.\.\/src\/img\/vk-blue\.png\)\]::after{
-  --tw-content: url(../../src/img/vk-blue.png);
+.after\:content-\[url\(\.\.\/\.\.\/docs\/img\/vk-blue\.png\)\]::after{
+  --tw-content: url(../../docs/img/vk-blue.png);
   content: var(--tw-content);
 }
 
